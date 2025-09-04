@@ -4,7 +4,7 @@ This project demonstrates how to use Terraform to provision AWS resources, start
 
 ---
 ## 📖 Table of contents 
-1. Overview
+1. Project Overview
 2. Architecture
 3. Step 1: Install Terraform
 4. Step 2: Set Up Terraform Project
