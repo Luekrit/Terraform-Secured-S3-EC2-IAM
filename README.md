@@ -6,18 +6,18 @@ This project demonstrates how to use Terraform to provision AWS resources, start
 ## 📖 Table of contents 
 1. [Project Overview](#Project-Overview)
 2. [Architecture](#Architecture)
-3. [Step 1: Install Terraform](#Step-1:-Install-Terraform)
-4. Step 2: Set Up Terraform Project
-5. Step 3: Define main.tf
-6. Step 4: run Terraform Configuration
-7. Step 5: Set up AWS Credentials
-8. Step 6: Launch an S3 Bucket with Terraform
-9. Secret Mission: Upload an Object
-10. Stretch Goal: EC2 + IAM integration
-11. Step 8: Verify EC2 + IAM
-12. Reflection
-13. Conclusion & Talking Point
-14. Key Learnings & Skills Demonstrated
+3. [Step 1: Install Terraform](#Step-1-Install-Terraform)
+4. [Step 2: Set Up Terraform Project](#Step-2-Set-Up-Terraform-Project)
+5. [Step 3: Define main.tf](#Step-3-Define-main.tf)
+6. [Step 4: run Terraform Configuration](#Step-4-run-Terraform-Configuration)
+7. [Step 5: Set up AWS Credentials](#Step-5-Set-Up-AWS-Credentials)
+8. [Step 6: Launch an S3 Bucket with Terraform](#Step-6-Launch-an-S3-Bucket-with-Terraform)
+9. [Secret Mission: Upload an Object](#Secret-Mission-Upload-an-Object)
+10. [Stretch Goal: EC2 + IAM integration](#Stretch-Goal-Add-EC2+IAM-Role-to-Access-S3)
+11. [Step 8: Verify EC2 + IAM](#Step-8-Verify-EC2+IAM-integration)
+12. [Reflection](#Reflection)
+13. [Conclusion & Talking Point](#Conclusion&TalkingPoints)
+14. [Key Learnings & Skills Demonstrated](#Key-Learnings&Skills-Demonstrated)
 
 ---
 
