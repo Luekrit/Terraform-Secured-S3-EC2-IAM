@@ -35,6 +35,7 @@ This project demonstrates how to use Terraform to provision AWS resources, start
 ---
 
 ## Architecture
+<img width="2430" height="1027" alt="image" src="https://github.com/user-attachments/assets/fb7b6dd9-d07d-4b75-b8bf-941e1d1ce5df" />
 
 ---
 
