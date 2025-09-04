@@ -16,8 +16,8 @@ This project demonstrates how to use Terraform to provision AWS resources, start
 10. [Stretch Goal: EC2 + IAM integration](#Stretch-Goal-Add-EC2+IAM-Role-to-Access-S3)
 11. [Step 8: Verify EC2 + IAM](#Step-8-Verify-EC2+IAM-integration)
 12. [Reflection](#Reflection)
-13. [Conclusion & Talking Point](#Conclusion&TalkingPoints)
-14. [Key Learnings & Skills Demonstrated](#Key-Learnings&Skills-Demonstrated)
+13. [Conclusion & Talking Point](#Conclusion-&-TalkingPoints)
+14. [Key Learnings & Skills Demonstrated](#Key-Learnings-&-Skills-Demonstrated)
 
 ---
 
