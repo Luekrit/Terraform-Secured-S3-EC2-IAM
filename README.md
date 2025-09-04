@@ -13,7 +13,7 @@ This project demonstrates how to use Terraform to provision AWS resources, start
 7. [Step 5: Set up AWS Credentials](#Step-5-Set-Up-AWS-Credentials)
 8. [Step 6: Launch an S3 Bucket with Terraform](#Step-6-Launch-an-S3-Bucket-with-Terraform)
 9. [Secret Mission: Upload an Object](#Secret-Mission-Upload-an-Object)
-10. [Stretch Goal: EC2 + IAM integration](#Stretch-Goal-Add-EC2--IAM-Role-to-Access-S3)
+10. [Stretch Goal: EC2 + IAM integration](#🎯Stretch-Goal-Add-EC2--IAM-Role-to-Access-S3)
 11. [Step 8: Verify EC2 + IAM](#Step-8-Verify-EC2--IAM-integration)
 12. [Reflection](#Reflection)
 13. [Conclusion & Talking Point](#Conclusion--Talking-Points)
