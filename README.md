@@ -61,7 +61,7 @@ terraform -version
 ```nginx
 Terraform v1.xx.x
 ```
-Screenshoot
+![Screenshoot1](screenshot/Install%20Terraform%20through%20Chocolately.png)
 
 ---
 
@@ -195,6 +195,10 @@ resource "aws_s3_bucket_lifecycle_configuration" "demo_lifecycle" {
 ```
 <h4> 💡 Why it’s good: Saves costs and keeps storage clean. </h4>
 
+Main.tf should look like this: 
+
+![screenshot2](screenshot/main%20script%20with%20best%20practice.png)
+
 ---
 
 ## Step 4: run Terraform Configuration
@@ -220,7 +224,6 @@ terraform init
 - Downloads the **AWS provider plugin**  
 - Creates a hidden **.terraform/** folder  
 - Prepares your project for execution  
-
 
 **Preview the plan**
 ```bash
