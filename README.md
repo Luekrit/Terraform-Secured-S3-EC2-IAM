@@ -265,7 +265,6 @@ Start-Process msiexec.exe -ArgumentList "/i AWSCLIV2.msi" -Wait
 # Verify installation
 aws --version
 ```
-Screenshoot 1 and 2
 
 ### Generate AWS Access Keys
 
@@ -470,6 +469,8 @@ You should see messages like:
 Your identification has been saved in id_rsa
 Your public key has been saved in id_rsa.pub
 ```
+![screenshot 3](Screenshot%202025-09-04%20001826.png)
+
 And inside your `terraform` folder: 
 - `id_rsa` → private key (use this when you SSH)
 - `id_rsa.pub` → public key (Terraform will upload this to AWS as `aws_key_pair`)
@@ -516,6 +517,8 @@ resource "aws_instance" "web" {
    ```powershell
    ssh -i id_rsa ec2-user@<EC2_PUBLIC_IP>
 
+![screenshot 4](screenshot/Screenshot%202025-09-04%20004759.png)
+
 4. Inside the EC2, check:
    ```bash
    cat /var/log/s3-access.log
@@ -559,6 +562,8 @@ sudo tail -n 100 /var/log/s3-access.log
 aws s3 ls s3://your bucket/
 ```
 You should see your `image.png` in step 3, and step 1 should show an ARN ending with role name like `...:role/lk-s3-ec2-iam-demo-ec2-role`. 
+
+![screenshot 5](screenshot/Screenshot%202025-09-04%20004815.png)
 
 ### 🧪 Optional Quick Tests
 
